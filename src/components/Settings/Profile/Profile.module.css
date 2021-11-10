@@ -1,0 +1,85 @@
+.profileInfo {
+    margin: 25px;
+    margin-top: 0;
+}
+
+.profileInfo__imgUser {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 25px;
+}
+
+.profileInfo_aboutUser {
+    float: left;
+    margin-right: 50px;
+}
+
+.profileInfo_aboutUser__name {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: -1px;
+}
+
+.profileInfo_aboutUser__email {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #afafaf;
+}
+
+.profileInfo__buttonExit {
+    text-decoration: none;
+    border-radius: 45px;
+    border: 1px solid #ebebeb;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #2196f3 0%, #6ec6ff 51%, #2196f3 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .10);
+    transition: .5s;
+}
+
+.profileInfo__buttonExit:hover {
+    background-position: right center;
+}
+
+@media screen and (max-width: 992px) {
+    .profileInfo__imgUser {
+        width: 120px;
+        height: 120px;
+        border-radius: 75px;
+        margin-top: 30px;
+    }
+
+    .profileInfo_aboutUser__name {
+        font-size: 55px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .profileInfo_aboutUser__email {
+        font-size: 48px;
+        margin-left: 25px;
+    }
+
+    .profileInfo__buttonExit {
+        font-size: 50px;
+        padding: 35px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 75px;
+        margin-top: 75px;
+        margin-top: 1;
+        margin-left: 50%;
+    }
+}

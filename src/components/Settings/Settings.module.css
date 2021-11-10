@@ -1,0 +1,24 @@
+.settingsBlock {
+    grid-area: content;
+}
+
+.settingsBlock__accountText {
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+    .settingsBlock {
+        margin-left: 75px;
+        margin-top: 75px;
+    }
+
+    .settingsBlock__accountText {
+        font-size: 60px;
+        margin-top: 125px;
+    }
+}

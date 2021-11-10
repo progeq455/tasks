@@ -1,0 +1,65 @@
+.authBlock {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.authBlock__caption {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 700;
+    color: #2196f3;
+}
+
+.authBlock__captionDes {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: rgb(175, 175, 175);
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+.authBlock__googleBtn {
+    text-decoration: none;
+    border-radius: 45px;
+    border: 1px solid #ebebeb;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #2196f3 0%, #6ec6ff 51%, #2196f3 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .13);
+    transition: .5s;
+}
+
+.authBlock__googleBtn:hover {
+    background-position: right center;
+    transform: translateY(-3px);
+}
+
+@media screen and (max-width: 992px) {
+    .authBlock {
+        margin-top: 50%;
+    }
+
+    .authBlock__caption {
+        font-size: 70px;
+    }
+
+    .authBlock__captionDes {
+        font-size: 34px;
+        margin-top: -30px;
+    }
+
+    .authBlock__googleBtn {
+        font-size: 38px;
+        margin-top: 80px;
+        padding: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}

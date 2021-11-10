@@ -1,0 +1,123 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.modal_content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 15px;
+    width: 50%;
+}
+
+.modal__input {
+    margin-left: 25px;
+    outline: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 25px;
+    text-overflow: ellipsis;
+    resize: none;
+    caret-color: #2196f3;
+}
+
+.modal__textTask {
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-top: 9px;
+    margin-left: 25px;
+    float: left;
+}
+
+.modal__createBtn {
+    text-decoration: none;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 25px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #2196f3 0%, #6ec6ff 51%, #2196f3 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    transition: .5s;
+}
+
+.modal__createBtn:hover {
+    border: 1px solid #FFFFFF;
+    background-position: right center;
+    transform: scale(0.9);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close:not(:hover) {
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+    .modal_content {
+        width: 70%;
+        height: 570px;
+    }
+
+    .modal__textTask {
+        font-size: 58px;
+        float: initial;
+        margin-top: 30px;
+    }
+
+    .modal__input {
+        font-size: 55px;
+        height: 110px;
+        padding-left: 50px;
+        border-radius: 75px;
+    }
+
+    .modal__input::-webkit-input-placeholder {
+        font-size: 55px;
+    }
+
+    .modal__createBtn {
+        font-size: 52px;
+        padding: 35px;
+        margin-top: 90px;
+    }
+
+    .close {
+        font-size: 100px;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+}

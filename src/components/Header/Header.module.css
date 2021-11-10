@@ -1,0 +1,40 @@
+.header {
+    grid-area: header;
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header_deleteButton {
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+.header_deleteButton__deleteImg {
+    width: 15px;
+    height: 15px;
+    margin-top: 28px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        font-size: 65px;
+        max-width: 500px;
+        margin-top: 75px;
+    }
+
+    .header_deleteButton__deleteImg {
+        width: 65px;
+        height: 65px;
+        margin-top: 72px;
+        margin-left: 250px;
+    }
+}

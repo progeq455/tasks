@@ -4,7 +4,7 @@
 
 ## Задачи
 
- Разработка Front-end, back-end for front-end 
+ Разработка Front-end, back-end
 
 ## Технологии на Front-end
 
